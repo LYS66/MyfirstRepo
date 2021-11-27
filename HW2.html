@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body {font-family: arial, helvetica, sans-serif;}
+		h1 {
+			color: purple;
+		}
+		.a{
+			background-color: lightpink;
+		}
+		.b{
+			font-style: italic;
+		}
+		span {
+			color: deeppink;
+			font-weight: bold;
+			font-style: italic;
+		}
+		.extra span{
+			color:  inherit;
+		}
+		li em{font-weight:bold ;} 
+		h3, em{font-weight: bold;}
+
+	</style>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th colspan="3">
+				<h1 class="a">About--110306085</h1>
+			</th>
+		</tr>
+		<tr>
+			<th rowspan="3">
+				<img src ="IMG_20210325_225259_877.jpg" width="150" height="150">
+				<p class="b">personal photo</p>
+			</th>
+			<th colspan="2">
+				<div align="left">
+					Name:
+					<input type="text">
+				<br>Gender:
+					<input type="radio">Male
+					<input type="radio">Female
+					<input type="radio">Other
+				</br></div>
+		</tr>
+		<tr>
+			<th><div align="left">County:
+				<select>
+					<option selected>Taipei</option>
+					<option>Tainan</option>
+					<option>Taichung</option>
+					<option>Taoyuan</option>
+				</select>	
+			</div></th>
+			<th><div align="left">
+				Birthday:
+				<input type="date">
+			</div></th>			
+		</tr>
+		<tr>
+			<th colspan="2">
+				<div align="left">
+					E-mail:
+					<input type="mail">
+				</div>
+			</th>
+		</tr>
+		<tr>
+			<th><div align="left"><p>Hobby</p></th></div>
+			<th colspan="2"><div align="left">
+				<input type="checkbox">Swimming
+				<input type="checkbox">Volleyball
+				<input type="checkbox">Movie
+				<input type="checkbox">Game
+				<input type="checkbox">Sleep
+			</div></th>
+		</tr>
+		<tr>
+			<th><p><div align="left">Skill</th></div>
+			<th colspan="2"><div align="left">
+				<input type="checkbox">Java
+				<input type="checkbox">HTML
+				<input type="checkbox">Python
+				<input type="checkbox">Microsoft Office
+				<input type="checkbox">Premiere
+			</div></p></th>
+		</tr>
+		<tr>
+			<th><div align="left">Say <span>Something</span></div></th>
+			<th colspan="2">
+				<div align="left"><input type="text" placeholder="Say something here.">
+				</div>
+			</th>
+		</tr>
+		<tr>
+			<th colspan="3">
+				<div align="left">
+					<meta charset="utf-8">
+					<input type="submit" charset="提交">
+					<input type="reset" charset="重設">
+				</div>
+			</th>
+		</tr>
+	</table>	
+
+</body>
+</html>
