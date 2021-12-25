@@ -1,0 +1,44 @@
+h1 em  {text-decoration: underline;color : yellow; font-family: arial, helvevetica, sans-serif;}
+p i  {text-decoration: overline;color : #800000;}
+        span{
+        color: darkblue;
+        border: 1px solid black;
+        }
+        .extra span{
+        color: inherit;
+        }
+td{font-weight: bold;
+ color : #C48888;
+}
+ul{
+ color: purple;
+ border: 2px dotted beige;
+ 
+}
+
+.cc{
+ background-color: #DDDDFF;
+ width: 300px;
+ heignt:150px;
+
+}
+.c{
+ margin-top: 10px;
+}
+.c1{
+ display: inline-block;
+ width: 150px;
+ height: 40px;
+ background-color: lightcoral;
+ border: 2px solid lightblue;
+ border-radius: 8px;
+ color: #FFFFCC;
+ margin-top: 5px;
+ padding: 5px 10px;
+    font-size: 18px;
+
+}
+.c:hover{
+ background: brown;
+ transition: all .3s ease;
+}
